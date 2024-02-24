@@ -4,13 +4,21 @@ html {
   margin: 0%;
 }
 
-body {
+
+/* body {
   background-image: url(img.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
   background-size: 100% 100%;
+} */
+
+img {
+  height: 500px;
+  width: 1000px;
+  margin: 80px;
+  padding: 10px;
 }
 
 ul {
@@ -22,7 +30,7 @@ ul {
 }
 
 li {
-  float:left;
+  float: left;
 }
 
 li a {

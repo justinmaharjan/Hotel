@@ -71,8 +71,8 @@
 
 
   <div class="container">
-    <h1>Delux Room Details</h1><br>
-    <img src="deluxe.jpg" alt="Delux Room Image" class="room-image">
+    <h1>Deluxe Room Details</h1><br>
+    <img src="deluxe.jpg" alt="Deluxe Room Image" class="room-image">
     <div class="room-details">
       <h2>Delux Room</h2>
       <p><strong>Size:</strong> 600 sq. ft</p>
@@ -114,8 +114,32 @@
         private dining area for hosting gatherings. A private balcony or terrace may provide breathtaking views, adding
         to the overall grandeur of the experience. In essence, the Presidential Suite caters to those who seek the
         pinnacle of luxury, ensuring an indulgent and memorable stay.</p>
+      </div>
     </div>
-  </div>
+
+
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="checkin">Check-in Date:</label>
+    <input type="date" id="checkin" name="checkin" required>
+
+    <label for="checkout">Check-out Date:</label>
+    <input type="date" id="checkout" name="checkout" required>
+
+    <label for="room-type">Room Type:</label>
+    <select id="room-type" name="room-type" required>
+      <option value="standard">Classic</option>
+      <option value="deluxe">Deluxe</option>
+      <option value="suite">Presidental</option>
+    </select>
+
+    <button type="submit">Submit Reservation</button>
+  </form>
 
 
 </body>

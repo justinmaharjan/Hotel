@@ -110,3 +110,79 @@ nav {
 .pricetag {
   margin: 15px 0;
 }
+
+/* .container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.hotel-image {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit:contain;
+  border-radius: 5px;
+}
+
+.hotel-info {
+  margin-top: 20px;
+}
+
+.hotel-info h2 {
+  color: #333;
+}
+
+.hotel-info p {
+  color: #555;
+} */
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.room-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.room-details {
+  margin-top: 20px;
+}
+
+.room-details h2 {
+  color: #333;
+}
+
+.room-details p {
+  color: #555;
+}
